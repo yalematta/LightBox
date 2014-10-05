@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NVIII</Machine>
+    <WindowsUser>Layale</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>75e60b7c-d071-405f-a232-be0450cf5372</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe">
+      <PackagePath>LightBox.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_closed.PNG">
+      <PackagePath>Assets\locker_closed.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_opened.PNG">
+      <PackagePath>Assets\locker_opened.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\offswtch.png">
+      <PackagePath>Assets\offswtch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\onswtch.png">
+      <PackagePath>Assets\onswtch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\DataFiles\DataBoxes.txt">
+      <PackagePath>DataFiles\DataBoxes.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
+      <PackagePath>LightBox.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

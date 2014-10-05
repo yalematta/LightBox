@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="LightBox.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LightBox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView x:ConnectionId='1' Name="BoxesGridView" Margin="0,152,0,0" Width="600" HorizontalAlignment="Left" SelectionMode="None"  IsItemClickEnabled="True"                                    >
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VariableSizedWrapGrid Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="235" Width="73">
+                        <Image Name="LockerImage" Source="/Assets/locker_closed.PNG"/>
+                        <TextBlock Name="IdText" Text="{Binding id}" Margin="0,63,0,138" Width="34" FontSize="18.667" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontFamily="Stencil Std"/>
+                        <Image Name="StateText" Source="{Binding lightstate}" Height="34" Margin="0,143,0,58" Width="34"/>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <Grid x:Name="OffCommandGrid" HorizontalAlignment="Left" Height="350" Margin="742,282,0,0" VerticalAlignment="Top" Width="490" Background="White" Visibility="Collapsed">
+            <TextBlock x:Name="CommandBlock" HorizontalAlignment="Left" Margin="40,94,0,0" TextWrapping="Wrap" Text="Want to retreive your phone?" VerticalAlignment="Top" Height="55" Width="421" Foreground="#FF0A0808" FontSize="29.333" TextAlignment="Center"/>
+            <TextBlock x:Name="EnterBlock" HorizontalAlignment="Left" Margin="104,200,0,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FF0A0808"/>
+            <PasswordBox x:ConnectionId='2' x:Name="PinText" HorizontalAlignment="Left" Margin="250,190,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="75" Height="35" Background="{x:Null}" BorderBrush="#5E5E60" Foreground="#5E5E60"                                                        />
+            <TextBox x:ConnectionId='3' x:Name="PinBox" HorizontalAlignment="Left" Margin="250,190,0,0" TextWrapping="Wrap" Text="PIN" VerticalAlignment="Top" Width="75" FontSize="16" BorderBrush="#FF0A0808"                            Height="35" TextAlignment="Left"/>
+            <HyperlinkButton x:ConnectionId='4' Name="NotYouLink" Margin="110,213,0,98" Foreground="#FFE61C37"                         >
+                <TextBlock Name="NotYouBlock"/>
+            </HyperlinkButton>
+            <TextBlock x:Name="TimeBlock" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="421" Foreground="#FF0A0808" FontSize="18.667" TextAlignment="Center"/>
+            <TextBlock x:Name="WrongBlock" HorizontalAlignment="Left" Margin="318,200,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="Castellar" FontWeight="Bold" Visibility="Collapsed"/>
+            <Grid x:Name="ForgotGrid" HorizontalAlignment="Left" Height="77" Margin="80,225,0,0" VerticalAlignment="Top" Width="314" Visibility="Collapsed">
+            	<Grid.ColumnDefinitions>
+            		<ColumnDefinition Width="89*"/>
+            		<ColumnDefinition Width="68*"/>
+            	</Grid.ColumnDefinitions>
+            	<TextBlock x:Name="WrongPhBlock" HorizontalAlignment="Left" Margin="86,26,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="Castellar" FontWeight="Bold" Grid.Column="1" Visibility="Collapsed"/>
+            	<TextBox x:ConnectionId='5' x:Name="PhoneBox" Text="Phone" HorizontalAlignment="Left" Margin="170,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" BorderBrush="#FF0A0808" Height="35" TextAlignment="Left" BorderThickness="2" Grid.ColumnSpan="2"                                                                                       />
+            	<TextBlock x:Name="EnterPhBlock" HorizontalAlignment="Left" Margin="24,18,0,0" TextWrapping="Wrap" Text="Enter Phone" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FF0A0808"/>
+            </Grid>
+        </Grid> 
+    </Grid>
+</Page>
+

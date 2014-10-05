@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NVIII</Machine>
+    <WindowsUser>Layale</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>75e60b7c-d071-405f-a232-be0450cf5372</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>252D9869FCACB55603937A14D3EB70FD91413B594B157986644BEB795A8E2F26</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>75e60b7c-d071-405f-a232-be0450cf5372_1.0.0.0_neutral__fqfj3z9ydmgq6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>75e60b7c-d071-405f-a232-be0450cf5372_fqfj3z9ydmgq6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>75e60b7c-d071-405f-a232-be0450cf5372</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Yale</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-05T12:05:25.075</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe">
+      <PackagePath>LightBox.exe</PackagePath>
+      <Modified>2014-10-05T12:05:23.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-07-04T12:06:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_closed.PNG">
+      <PackagePath>Assets\locker_closed.PNG</PackagePath>
+      <Modified>2014-07-09T12:37:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_opened.PNG">
+      <PackagePath>Assets\locker_opened.PNG</PackagePath>
+      <Modified>2014-07-09T12:37:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\offswtch.png">
+      <PackagePath>Assets\offswtch.png</PackagePath>
+      <Modified>2014-07-09T11:21:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\onswtch.png">
+      <PackagePath>Assets\onswtch.png</PackagePath>
+      <Modified>2014-07-09T11:21:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T04:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\DataFiles\DataBoxes.txt">
+      <PackagePath>DataFiles\DataBoxes.txt</PackagePath>
+      <Modified>2014-07-11T11:46:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-07-07T06:36:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-07-11T13:30:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
+      <PackagePath>LightBox.xr.xml</PackagePath>
+      <Modified>2014-10-05T12:05:20.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-05T12:05:24.219</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
