@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LightBox.DataModels;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,6 +9,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,8 +25,27 @@ namespace LightBox
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
-    sealed partial class App : Application
+    public sealed partial class App : Application
     {
+        public static StorageFile newfile;
+
+        public static YaleBoxes yale = new YaleBoxes();
+
+        public static Dictionary<string, string> PhoneDict = new Dictionary<string, string>();
+
+        private static MainPage _main;
+        public static MainPage main
+        {
+            get
+            {
+                return _main;
+            }
+            set
+            {
+                _main = value;
+            }
+        }
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -76,7 +98,7 @@ namespace LightBox
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                rootFrame.Navigate(typeof(SplashPage), e.Arguments);
             }
             // Ensure the current window is active
             Window.Current.Activate();
@@ -105,5 +127,31 @@ namespace LightBox
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        #region GlobalJSONMethods
+
+        public static void SetJsonFile()
+        {
+            string jsonContents = JsonConvert.SerializeObject(App.yale);
+            WriteJsonFile(jsonContents);
+        }
+
+        public static  async void WriteJsonFile(string data)
+        {
+            if (newfile == null)
+                newfile = await ApplicationData.Current.LocalFolder.CreateFileAsync("DataBoxes.json", CreationCollisionOption.ReplaceExisting);
+            await FileIO.WriteTextAsync(newfile, data);
+            ParseJsonString(data);
+        }
+
+        public static void ParseJsonString(string jsonData)
+        {
+            if (jsonData != null)
+                App.yale = JsonConvert.DeserializeObject<YaleBoxes>(jsonData);
+
+            main.Load_boxes();
+        }
+
+        #endregion
     }
 }

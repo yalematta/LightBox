@@ -7,8 +7,8 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>75e60b7c-d071-405f-a232-be0450cf5372</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>252D9869FCACB55603937A14D3EB70FD91413B594B157986644BEB795A8E2F26</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>090ECBAA5C18B27BE789BB613E59B2F50016236F70015C66E65F7D218026A3DF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>75e60b7c-d071-405f-a232-be0450cf5372_1.0.0.0_neutral__fqfj3z9ydmgq6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>75e60b7c-d071-405f-a232-be0450cf5372_fqfj3z9ydmgq6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>75e60b7c-d071-405f-a232-be0450cf5372</RegisteredPackageID>
@@ -17,76 +17,185 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-05T12:05:25.075</Modified>
+      <Modified>2014-10-09T12:52:13.692</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.exe">
       <PackagePath>LightBox.exe</PackagePath>
-      <Modified>2014-10-05T12:05:23.199</Modified>
+      <Modified>2014-10-09T12:52:11.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2014-07-04T12:06:08.000</Modified>
+      <Modified>2014-10-09T07:02:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_closed.PNG">
-      <PackagePath>Assets\locker_closed.PNG</PackagePath>
-      <Modified>2014-07-09T12:37:02.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\default-account.png">
+      <PackagePath>Assets\Images\Flat-Icons\default-account.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_opened.PNG">
-      <PackagePath>Assets\locker_opened.PNG</PackagePath>
-      <Modified>2014-07-09T12:37:02.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\1.png">
+      <PackagePath>Assets\Images\Flat-Icons\1.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\offswtch.png">
-      <PackagePath>Assets\offswtch.png</PackagePath>
-      <Modified>2014-07-09T11:21:16.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\2.png">
+      <PackagePath>Assets\Images\Flat-Icons\2.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\onswtch.png">
-      <PackagePath>Assets\onswtch.png</PackagePath>
-      <Modified>2014-07-09T11:21:18.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\3.png">
+      <PackagePath>Assets\Images\Flat-Icons\3.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\4.png">
+      <PackagePath>Assets\Images\Flat-Icons\4.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\5.png">
+      <PackagePath>Assets\Images\Flat-Icons\5.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\6.png">
+      <PackagePath>Assets\Images\Flat-Icons\6.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\7.png">
+      <PackagePath>Assets\Images\Flat-Icons\7.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\8.png">
+      <PackagePath>Assets\Images\Flat-Icons\8.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\9.png">
+      <PackagePath>Assets\Images\Flat-Icons\9.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\10.png">
+      <PackagePath>Assets\Images\Flat-Icons\10.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\11.png">
+      <PackagePath>Assets\Images\Flat-Icons\11.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\12.png">
+      <PackagePath>Assets\Images\Flat-Icons\12.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\13.png">
+      <PackagePath>Assets\Images\Flat-Icons\13.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\14.png">
+      <PackagePath>Assets\Images\Flat-Icons\14.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\15.png">
+      <PackagePath>Assets\Images\Flat-Icons\15.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\16.png">
+      <PackagePath>Assets\Images\Flat-Icons\16.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\17.png">
+      <PackagePath>Assets\Images\Flat-Icons\17.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\18.png">
+      <PackagePath>Assets\Images\Flat-Icons\18.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\locker_closed.PNG">
+      <PackagePath>Assets\Images\locker_closed.PNG</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\locker_opened.PNG">
+      <PackagePath>Assets\Images\locker_opened.PNG</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\offswtch.png">
+      <PackagePath>Assets\Images\offswtch.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\onswtch.png">
+      <PackagePath>Assets\Images\onswtch.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\1.png">
+      <PackagePath>Assets\yale splash\1.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\2.png">
+      <PackagePath>Assets\yale splash\2.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\3.png">
+      <PackagePath>Assets\yale splash\3.png</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\locker_sound.mp3">
+      <PackagePath>Assets\yale splash\locker_sound.mp3</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SplashScreen.scale-100.png">
-      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\DataFiles\DataBoxes.txt">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\DataFiles\DataBoxes.txt">
       <PackagePath>DataFiles\DataBoxes.txt</PackagePath>
-      <Modified>2014-07-11T11:46:54.000</Modified>
+      <Modified>2014-10-09T07:02:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Font\Grounday.otf">
+      <PackagePath>Assets\Font\Grounday.otf</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Font\Noasarck.otf">
+      <PackagePath>Assets\Font\Noasarck.otf</PackagePath>
+      <Modified>2014-10-09T07:02:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-07-07T06:36:50.000</Modified>
+      <Modified>2014-10-09T12:52:10.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AdminPage.xbf">
+      <PackagePath>AdminPage.xbf</PackagePath>
+      <Modified>2014-10-09T12:52:10.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-07-11T13:30:36.000</Modified>
+      <Modified>2014-10-09T12:52:10.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\SplashPage.xbf">
+      <PackagePath>SplashPage.xbf</PackagePath>
+      <Modified>2014-10-09T12:52:10.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
       <PackagePath>LightBox.xr.xml</PackagePath>
-      <Modified>2014-10-05T12:05:20.632</Modified>
+      <Modified>2014-10-09T12:52:09.821</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-05T12:05:24.219</Modified>
+      <Modified>2014-10-09T12:52:12.724</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

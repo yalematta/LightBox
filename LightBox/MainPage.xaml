@@ -7,8 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <GridView Name="BoxesGridView" Margin="0,152,0,0" Width="600" HorizontalAlignment="Left" SelectionMode="None"  IsItemClickEnabled="True" ItemClick="BoxesGridView_ItemClick">
+    <Grid Background="#FF1D1D1D">
+        <MediaElement x:Name="sound" AudioCategory="GameEffects" Source="Assets/yale splash/locker_sound.mp3" AutoPlay="False" Visibility="Collapsed"/>
+        <GridView Name="BoxesGridView"
+                  Margin="0,0,0,0"
+                  Width="660"
+                  CanDragItems="False"
+                  VerticalAlignment="Center"
+                  HorizontalAlignment="Left" 
+                  SelectionMode="Single" 
+                  SelectionChanged="BoxesGridView_SelectionChanged" Visibility="Collapsed">
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <VariableSizedWrapGrid Orientation="Vertical" />
@@ -16,33 +24,89 @@
             </GridView.ItemsPanel>
             <GridView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Height="235" Width="73">
-                        <Image Name="LockerImage" Source="/Assets/locker_closed.PNG"/>
-                        <TextBlock Name="IdText" Text="{Binding id}" Margin="0,63,0,138" Width="34" FontSize="18.667" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontFamily="Stencil Std"/>
-                        <Image Name="StateText" Source="{Binding lightstate}" Height="34" Margin="0,143,0,58" Width="34"/>
+                    <Grid Height="300" Width="Auto">
+                        <Image Name="LockerImage" Source="{Binding locker}" Stretch="Uniform" />
+                        <TextBlock Name="IdText" Text="{Binding id}" Margin="0,63,0,138" Width="36" FontSize="18.667" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontFamily="Stencil Std"/>
+                        <Image Name="StateLight" Source="{Binding lightstate}" Height="20" Margin="0,143,0,58" Width="20" Visibility="{Binding lightVis}"/>
                     </Grid>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
-        <Grid x:Name="OffCommandGrid" HorizontalAlignment="Left" Height="350" Margin="742,282,0,0" VerticalAlignment="Top" Width="490" Background="White" Visibility="Collapsed">
-            <TextBlock x:Name="CommandBlock" HorizontalAlignment="Left" Margin="40,94,0,0" TextWrapping="Wrap" Text="Want to retreive your phone?" VerticalAlignment="Top" Height="55" Width="421" Foreground="#FF0A0808" FontSize="29.333" TextAlignment="Center"/>
-            <TextBlock x:Name="EnterBlock" HorizontalAlignment="Left" Margin="104,200,0,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FF0A0808"/>
-            <PasswordBox x:Name="PinText" HorizontalAlignment="Left" Margin="250,190,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="75" Height="35" Background="{x:Null}" BorderBrush="#5E5E60" Foreground="#5E5E60" KeyDown="PinText_KeyDown" LostFocus="PinText_LostFocus"/>
-            <TextBox x:Name="PinBox" HorizontalAlignment="Left" Margin="250,190,0,0" TextWrapping="Wrap" Text="PIN" VerticalAlignment="Top" Width="75" FontSize="16" BorderBrush="#FF0A0808" GotFocus="PinBox_GotFocus" Height="35" TextAlignment="Left"/>
+        <GridView Name="IconsGridView"
+                  Margin="0,0,0,0"
+                  Width="660"
+                  Height="400"
+                  CanDragItems="False"
+                  VerticalAlignment="Center"
+                  HorizontalAlignment="Left" 
+                  SelectionMode="Single" 
+                  SelectionChanged="IconsGridView_SelectionChanged" Visibility="Collapsed">
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VariableSizedWrapGrid Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="100" Width="Auto">
+                        <Image Name="IconImage" Source="{Binding}" Stretch="Uniform" Width="100" Height="100" />
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <Grid x:Name="OffCommandGrid" HorizontalAlignment="Left" Height="350" Margin="742,212,0,0" VerticalAlignment="Top" Width="490" Background="#FF1D1D1D" Visibility="Collapsed">
+            <TextBlock x:Name="CommandBlock" HorizontalAlignment="Left" Margin="0,94,0,0" TextWrapping="Wrap" Text="Want to retreive your phone?" VerticalAlignment="Top" Height="55" Width="480" Foreground="#FFFBF7F7" FontSize="35" TextAlignment="Center" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+            <TextBlock x:Name="EnterBlock" HorizontalAlignment="Left" Margin="104,196,0,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FFFBF7F7" FontFamily="SimSun" FontWeight="Bold"/>
+            <PasswordBox x:Name="PinText" HorizontalAlignment="Left" Margin="250,190,0,0" Visibility="Collapsed" VerticalAlignment="Top" Width="100" Height="35" Background="{x:Null}" BorderBrush="#5E5E60" Foreground="#FFFBF7F7" KeyDown="PinText_KeyDown" LostFocus="PinText_LostFocus" MaxLength="5" FontFamily="SimSun"/>
+            <TextBox x:Name="PinBox" HorizontalAlignment="Left" Margin="250,190,0,0" TextWrapping="Wrap" Text="PIN" VerticalAlignment="Top" Width="100" FontSize="18.667" BorderBrush="#FFFBF7F7" GotFocus="PinBox_GotFocus" Height="35" TextAlignment="Left" Foreground="#FFFBF7F7" Background="#FF0C0000" FontFamily="SimSun" FontWeight="Bold"/>
             <HyperlinkButton Name="NotYouLink" Margin="110,213,0,98" Foreground="#FFE61C37" Click="NotYouLink_Click">
-                <TextBlock Name="NotYouBlock"/>
+                <TextBlock Name="NotYouBlock" FontFamily="/Assets/Font/Noasarck.otf#Noasarck" FontSize="20"/>
             </HyperlinkButton>
-            <TextBlock x:Name="TimeBlock" HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="421" Foreground="#FF0A0808" FontSize="18.667" TextAlignment="Center"/>
-            <TextBlock x:Name="WrongBlock" HorizontalAlignment="Left" Margin="318,200,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="Castellar" FontWeight="Bold" Visibility="Collapsed"/>
-            <Grid x:Name="ForgotGrid" HorizontalAlignment="Left" Height="77" Margin="80,225,0,0" VerticalAlignment="Top" Width="314" Visibility="Collapsed">
+            <TextBlock x:Name="TimeBlock" HorizontalAlignment="Left" Margin="10,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="470" Foreground="#FFFBF7F7" FontSize="16" TextAlignment="Center"/>
+            <TextBlock x:Name="WrongBlock" HorizontalAlignment="Left" Margin="346,194,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="SimSun" FontWeight="Bold" Visibility="Collapsed"/>
+            <Grid x:Name="ForgotGrid" HorizontalAlignment="Left" Height="77" Margin="82,225,0,0" VerticalAlignment="Top" Width="314" Visibility="Collapsed">
             	<Grid.ColumnDefinitions>
             		<ColumnDefinition Width="89*"/>
             		<ColumnDefinition Width="68*"/>
             	</Grid.ColumnDefinitions>
-            	<TextBlock x:Name="WrongPhBlock" HorizontalAlignment="Left" Margin="86,26,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="Castellar" FontWeight="Bold" Grid.Column="1" Visibility="Collapsed"/>
-            	<TextBox x:Name="PhoneBox" Text="Phone" HorizontalAlignment="Left" Margin="170,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" BorderBrush="#FF0A0808" Height="35" TextAlignment="Left" BorderThickness="2" Grid.ColumnSpan="2" GotFocus="PhoneBox_GotFocus" LostFocus="PhoneBox_LostFocus" KeyDown="PhoneBox_KeyDown"/>
-            	<TextBlock x:Name="EnterPhBlock" HorizontalAlignment="Left" Margin="24,18,0,0" TextWrapping="Wrap" Text="Enter Phone" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FF0A0808"/>
+            	<TextBlock x:Name="WrongPhBlock" HorizontalAlignment="Left" Margin="88,20,0,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="SimSun" FontWeight="Bold" Grid.Column="1" Visibility="Collapsed"/>
+            	<TextBox x:Name="PhoneBox" Text="Phone" HorizontalAlignment="Left" Margin="170,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" BorderBrush="#FFFDF4F4" Height="35" TextAlignment="Left" BorderThickness="2" Grid.ColumnSpan="2" GotFocus="PhoneBox_GotFocus" LostFocus="PhoneBox_LostFocus" KeyDown="PhoneBox_KeyDown" MaxLength="8" Foreground="#FFFBF9F9" Background="#FF0E0101" FontFamily="SimSun" FontWeight="Bold"/>
+            	<TextBlock x:Name="EnterPhBlock" HorizontalAlignment="Left" Margin="24,18,0,0" TextWrapping="Wrap" Text="Enter Phone" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FFFBF7F7" FontFamily="SimSun" FontWeight="Bold"/>
             </Grid>
-        </Grid> 
+            <Button x:Name="RetreiveButton" HorizontalAlignment="Left" Margin="113,310,0,0" VerticalAlignment="Top" Click="RetreiveButton_Click" Width="120" BorderBrush="{x:Null}">
+                <TextBlock x:Name="RetreiveBlock" Text="Retreive" Foreground="#FFFBF7F7" FontSize="22" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+            </Button>
+            <Button x:Name="CancelButton" HorizontalAlignment="Left" Margin="289,310,0,0" VerticalAlignment="Top" Click="CancelButton_Click" Width="120" BorderBrush="{x:Null}">
+                <TextBlock x:Name="CancelBlock" Text="Cancel" Foreground="#FFFBF7F7" FontSize="22" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+            </Button>
+            <Image x:Name="IconImageOff" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="6,186,0,0"/>
+        </Grid>
+        <Grid x:Name="OnCommandGrid" HorizontalAlignment="Left" Height="350" Margin="742,212,0,0" VerticalAlignment="Top" Width="490" Background="#FF1D1D1D" Visibility="Collapsed">
+            <TextBlock x:Name="OnCommandBlock" HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Want to insert your phone?" VerticalAlignment="Top" Height="55" Width="470" Foreground="#FFFBF9F9" FontSize="35" TextAlignment="Center" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+        	<Grid x:Name="EntriesGrid" HorizontalAlignment="Left" Height="139" VerticalAlignment="Top" Width="336" Margin="82,149,0,0">
+        		<TextBlock x:Name="NameBlock" HorizontalAlignment="Left" Margin="41,16,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FFFBF9F9" FontFamily="SimSun" FontWeight="Bold"/>
+        		<TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="162,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="16" BorderBrush="#FFFBF9F9" GotFocus="NameBox_GotFocus" Height="35" TextAlignment="Left" LostFocus="NameBox_LostFocus" FontFamily="SimSun" FontWeight="Bold" Foreground="#FFFBF9F9" Background="#FF1D1D1D"/>
+        		<TextBlock x:Name="PinBlock" HorizontalAlignment="Left" Margin="48,107,-30,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="318" Foreground="#FFFBF9F9" FontSize="21.333" FontWeight="Bold" FontFamily="SimSun"/>
+        		<TextBlock x:Name="OnPhoneBlock" HorizontalAlignment="Left" Margin="41,64,0,0" TextWrapping="Wrap" Text="Phone" VerticalAlignment="Top" Height="35" Width="131" FontSize="21.333" TextAlignment="Center" Foreground="#FFFBF9F9" FontFamily="SimSun" FontWeight="Bold"/>
+        		<TextBox x:Name="OnPhoneBox" HorizontalAlignment="Left" Margin="162,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" FontSize="16" BorderBrush="#FFFBF9F9" GotFocus="OnPhoneBox_GotFocus" Height="35" TextAlignment="Left" LostFocus="OnPhoneBox_LostFocus" MaxLength="8" KeyDown="OnPhoneBox_KeyDown" FontFamily="SimSun" FontWeight="Bold" Foreground="#FFFBF9F9" Background="#FF1D1D1D"/>
+        		<TextBlock x:Name="WrongPhone" HorizontalAlignment="Left" Margin="296,66,-5,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="SimSun" FontWeight="Bold" Visibility="Collapsed"/>
+        		<TextBlock x:Name="WrongName" HorizontalAlignment="Left" Margin="296,20,-5,0" TextWrapping="Wrap" Text="X" VerticalAlignment="Top" Height="35" Width="45" FontSize="18.667" TextAlignment="Center" Foreground="#FFF00E0E" FontFamily="SimSun" FontWeight="Bold" Visibility="Collapsed"/>
+        	</Grid>
+            <Button x:Name="DoneButton" HorizontalAlignment="Left" Margin="113,310,0,0" VerticalAlignment="Top" Click="DoneButton_Click" Width="120" BorderBrush="{x:Null}">
+                <TextBlock x:Name="DoneBlock" Text="Insert" Foreground="#FFFBF9F9" FontSize="22" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+            </Button>
+            <Button x:Name="OnCancelButton" HorizontalAlignment="Left" Margin="289,310,0,0" VerticalAlignment="Top" Click="OnCancelButton_Click" Width="120" BorderBrush="{x:Null}">
+                <TextBlock x:Name="OnCancelBlock" Text="Cancel" Foreground="#FFFBF9F9" FontSize="22" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+            </Button>
+            <Image x:Name="IconImage" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="32,154,0,0" Source="Assets/Images/Flat-Icons/default-account.png" Tapped="IconImage_Tapped"/>
+        </Grid>
+        <StackPanel Name="UserGrid" Orientation="Horizontal" HorizontalAlignment="Center" Height="520" VerticalAlignment="Center" Width="820" Margin="256,142,290,106">
+            <Button x:Name="CustButton" Content="Customer" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="409" FontSize="40" FontFamily="/Assets/Font/Grounday.otf#Grounday" BorderBrush="{x:Null}" Click="CustButton_Click" Margin="0,107,0,109"/>
+            <Button x:Name="AdminButton" Content="Admin" HorizontalAlignment="Center" Width="413" FontSize="40" FontFamily="/Assets/Font/Grounday.otf#Grounday" BorderBrush="{x:Null}" Click="AdminButton_Click" Margin="0,107,0,0" VerticalAlignment="Top" Height="304"/>
+        </StackPanel>
+        <Button x:Name="BackButton" Content="Button" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="BackButton_Click" Height="62" Width="66" Visibility="Collapsed"/>
+        <Button x:Name="CaptureButton" HorizontalAlignment="Left" Margin="232,588,0,0" VerticalAlignment="Top" Width="200" BorderBrush="{x:Null}" Visibility="Collapsed" Click="CaptureButton_Click">
+            <TextBlock Text="Capture Photo" Foreground="#FFFBF9F9" FontSize="25" FontFamily="/Assets/Font/Grounday.otf#Grounday"/>
+        </Button>
     </Grid>
 </Page>

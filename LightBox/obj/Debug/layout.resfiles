@@ -1,12 +1,39 @@
-Assets\locker_closed.PNG
-Assets\locker_opened.PNG
+Assets\Font\Grounday.otf
+Assets\Font\Noasarck.otf
+Assets\Images\Flat-Icons\1.png
+Assets\Images\Flat-Icons\10.png
+Assets\Images\Flat-Icons\11.png
+Assets\Images\Flat-Icons\12.png
+Assets\Images\Flat-Icons\13.png
+Assets\Images\Flat-Icons\14.png
+Assets\Images\Flat-Icons\15.png
+Assets\Images\Flat-Icons\16.png
+Assets\Images\Flat-Icons\17.png
+Assets\Images\Flat-Icons\18.png
+Assets\Images\Flat-Icons\2.png
+Assets\Images\Flat-Icons\3.png
+Assets\Images\Flat-Icons\4.png
+Assets\Images\Flat-Icons\5.png
+Assets\Images\Flat-Icons\6.png
+Assets\Images\Flat-Icons\7.png
+Assets\Images\Flat-Icons\8.png
+Assets\Images\Flat-Icons\9.png
+Assets\Images\Flat-Icons\default-account.png
+Assets\Images\locker_closed.PNG
+Assets\Images\locker_opened.PNG
+Assets\Images\offswtch.png
+Assets\Images\onswtch.png
 Assets\Logo.scale-100.png
-Assets\offswtch.png
-Assets\onswtch.png
-Assets\SmallLogo.scale-100.png
-Assets\SplashScreen.scale-100.png
-Assets\StoreLogo.scale-100.png
+Assets\Square70x70Logo.scale-100.png
+Assets\Wide310x150Logo.scale-100.png
+Assets\Wide310x150Logo.scale-180.png
+Assets\yale splash\1.png
+Assets\yale splash\2.png
+Assets\yale splash\3.png
+Assets\yale splash\locker_sound.mp3
+AdminPage.xbf
 App.xbf
 LightBox.xr.xml
 MainPage.xbf
+SplashPage.xbf
 DataFiles\DataBoxes.txt

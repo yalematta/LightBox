@@ -1,1 +1,1 @@
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\LightBox.csproj;neutral
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\LightBox.csproj;neutral

@@ -7,62 +7,144 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>75e60b7c-d071-405f-a232-be0450cf5372</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.exe">
       <PackagePath>LightBox.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\packages\Newtonsoft.Json.6.0.3\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_closed.PNG">
-      <PackagePath>Assets\locker_closed.PNG</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\default-account.png">
+      <PackagePath>Assets\Images\Flat-Icons\default-account.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\locker_opened.PNG">
-      <PackagePath>Assets\locker_opened.PNG</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\1.png">
+      <PackagePath>Assets\Images\Flat-Icons\1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\offswtch.png">
-      <PackagePath>Assets\offswtch.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\2.png">
+      <PackagePath>Assets\Images\Flat-Icons\2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\onswtch.png">
-      <PackagePath>Assets\onswtch.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\3.png">
+      <PackagePath>Assets\Images\Flat-Icons\3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\4.png">
+      <PackagePath>Assets\Images\Flat-Icons\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\5.png">
+      <PackagePath>Assets\Images\Flat-Icons\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\6.png">
+      <PackagePath>Assets\Images\Flat-Icons\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\7.png">
+      <PackagePath>Assets\Images\Flat-Icons\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\8.png">
+      <PackagePath>Assets\Images\Flat-Icons\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\9.png">
+      <PackagePath>Assets\Images\Flat-Icons\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\10.png">
+      <PackagePath>Assets\Images\Flat-Icons\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\11.png">
+      <PackagePath>Assets\Images\Flat-Icons\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\12.png">
+      <PackagePath>Assets\Images\Flat-Icons\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\13.png">
+      <PackagePath>Assets\Images\Flat-Icons\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\14.png">
+      <PackagePath>Assets\Images\Flat-Icons\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\15.png">
+      <PackagePath>Assets\Images\Flat-Icons\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\16.png">
+      <PackagePath>Assets\Images\Flat-Icons\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\17.png">
+      <PackagePath>Assets\Images\Flat-Icons\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\Flat-Icons\18.png">
+      <PackagePath>Assets\Images\Flat-Icons\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\locker_closed.PNG">
+      <PackagePath>Assets\Images\locker_closed.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\locker_opened.PNG">
+      <PackagePath>Assets\Images\locker_opened.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\offswtch.png">
+      <PackagePath>Assets\Images\offswtch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Images\onswtch.png">
+      <PackagePath>Assets\Images\onswtch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\1.png">
+      <PackagePath>Assets\yale splash\1.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\2.png">
+      <PackagePath>Assets\yale splash\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\3.png">
+      <PackagePath>Assets\yale splash\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SmallLogo.scale-100.png">
-      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\yale splash\locker_sound.mp3">
+      <PackagePath>Assets\yale splash\locker_sound.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\SplashScreen.scale-100.png">
-      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\Assets\StoreLogo.scale-100.png">
-      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\DataFiles\DataBoxes.txt">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\DataFiles\DataBoxes.txt">
       <PackagePath>DataFiles\DataBoxes.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Font\Grounday.otf">
+      <PackagePath>Assets\Font\Grounday.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\Assets\Font\Noasarck.otf">
+      <PackagePath>Assets\Font\Noasarck.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AdminPage.xbf">
+      <PackagePath>AdminPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\SplashPage.xbf">
+      <PackagePath>SplashPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.xr.xml">
       <PackagePath>LightBox.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

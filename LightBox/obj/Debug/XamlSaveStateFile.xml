@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\anthony\documents\visual studio 2013\projects\lightbox\lightbox\obj\debug\intermediatexaml\lightbox.exe" HashGuid="7f1ac537-7a57-a767-c4f2-1f4123af25ca" />
-    <ReferenceAssembly PathName="c:\users\layale matta\desktop\lightbox\lightbox\packages\newtonsoft.json.6.0.3\lib\netcore45\newtonsoft.json.dll" HashGuid="7727b668-bdac-5612-b497-e55cbaabf5af" />
+    <LocalAssembly PathName="c:\users\anthony\documents\visual studio 2013\projects\lightbox\lightbox\lightbox\obj\debug\intermediatexaml\lightbox.exe" HashGuid="6e933e19-3052-a796-82d2-2374e58ad509" />
+    <ReferenceAssembly PathName="c:\users\layale matta\desktop\fooboxes\fooboxes\lightbox\packages\newtonsoft.json.6.0.3\lib\netcore45\newtonsoft.json.dll" HashGuid="7727b668-bdac-5612-b497-e55cbaabf5af" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

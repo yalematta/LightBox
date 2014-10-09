@@ -33,39 +33,94 @@ C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\obj\Deb
 C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\obj\Debug\ProjectArchitectures.txt
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\App.xbf
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.xr.xml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.pdb
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\resources.pri
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\LightBox.build.appxrecipe
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\LightBox.csprojResolveAssemblyReference.cache
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\App.g.i.cs
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\App.g.cs
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\MainPage.g.i.cs
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\MainPage.g.cs
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\XamlTypeInfo.g.cs
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\App.xaml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\MainPage.xaml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\App.xbf
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\MainPage.xbf
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\XamlSaveStateFile.xml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\LightBox.exe
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\LightBox.pdb
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\LightBox.csproj.GenerateResource.Cache
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\priconfig.xml
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\priconfig.xml.intermediate
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\layout.resfiles
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\layout.resfiles.intermediate
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\resources.resfiles
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\resources.resfiles.intermediate
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\pri.resfiles
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\pri.resfiles.intermediate
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\qualifiers.txt
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\qualifiers.txt.intermediate
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Layale Matta\Desktop\LightBox\LightBox\LightBox\obj\Debug\ProjectArchitectures.txt
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\App.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\AdminPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\MainPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\SplashPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\LightBox.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\LightBox.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\resources.pri
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\AppxManifest.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\LightBox.build.appxrecipe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\App.g.i.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\App.g.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\AdminPage.g.i.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\AdminPage.g.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\MainPage.g.i.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\MainPage.g.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\SplashPage.g.i.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\SplashPage.g.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\App.xaml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\AdminPage.xaml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\MainPage.xaml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\SplashPage.xaml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\App.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\AdminPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\MainPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\SplashPage.xbf
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\LightBox.exe
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\LightBox.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\LightBox.csproj.GenerateResource.Cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\priconfig.xml
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\priconfig.xml.intermediate
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\layout.resfiles
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\layout.resfiles.intermediate
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\resources.resfiles
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\resources.resfiles.intermediate
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\pri.resfiles
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\pri.resfiles.intermediate
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\qualifiers.txt
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\ProjectArchitectures.txt
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\LightBox\LightBox\LightBox\obj\Debug\LightBox.csprojResolveAssemblyReference.cache
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\App.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AdminPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\MainPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\SplashPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.xr.xml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.exe
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.pdb
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\resources.pri
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\AppxManifest.xml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\LightBox.build.appxrecipe
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\LightBox.csprojResolveAssemblyReference.cache
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\App.g.i.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\App.g.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\AdminPage.g.i.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\AdminPage.g.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\MainPage.g.i.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\MainPage.g.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\SplashPage.g.i.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\SplashPage.g.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\App.xaml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\AdminPage.xaml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\MainPage.xaml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\SplashPage.xaml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\App.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\AdminPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\MainPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\SplashPage.xbf
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\LightBox.exe
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\LightBox.pdb
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\LightBox.csproj.GenerateResource.Cache
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\priconfig.xml
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\priconfig.xml.intermediate
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\layout.resfiles
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\layout.resfiles.intermediate
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\resources.resfiles
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\resources.resfiles.intermediate
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\pri.resfiles
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\pri.resfiles.intermediate
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\qualifiers.txt
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Layale Matta\Desktop\FOOBoxes\FOOBoxes\LightBox\LightBox\obj\Debug\ProjectArchitectures.txt

@@ -15,12 +15,16 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="FooBoxes.App">
-      <m2:VisualElements DisplayName="FooBoxes" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="FooBoxes" ForegroundText="light" BackgroundColor="#464646">
-        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      <m2:VisualElements DisplayName="FooBoxes" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="FooBoxes" ForegroundText="dark" BackgroundColor="#464646">
+        <m2:DefaultTile Square70x70Logo="Assets\Square70x70Logo.png" Wide310x150Logo="Assets\Wide310x150Logo.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\yale splash\1.png" BackgroundColor="#000000" />
       </m2:VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="picturesLibrary" />
+    <DeviceCapability Name="webcam" />
   </Capabilities>
 </Package>
